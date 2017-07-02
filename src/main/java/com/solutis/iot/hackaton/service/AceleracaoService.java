@@ -23,7 +23,7 @@ public class AceleracaoService {
 		if (houveImpacto) {
 			String data = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss").format(new Date());
 			
-			String log = data + " - Alerta de Impacto!";
+			String log = "<div style='color: red;'>" + data + " - Alerta de Impacto!</div>";
 			
 			storage.get().gravarLog(log);
 		}

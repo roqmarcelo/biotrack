@@ -24,7 +24,13 @@ public class TemperaturaService {
 			
 			String data = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss").format(new Date());
 
-			String log = data + " - Temperatura da Caixa : " + valorTemperatura + "°";
+			String log = "";
+			
+			if (valorTemperatura >= 25) {
+				log = "<div style='color: red;'>" + data + " - Temperatura da Caixa : " + valorTemperatura + "°</div>";
+			} else {
+				log = data + " - Temperatura da Caixa : " + valorTemperatura + "°</div>";
+			}
 			
 			storage.get().gravarLog(log);
 		}
