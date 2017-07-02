@@ -31,9 +31,9 @@ public class StorageService {
 	}
 	
 	public List<String> getLogs() {
-		int index = 50;
+		int index = 100;
 		
-		if (logs.size() < 50) {
+		if (logs.size() < index) {
 			index = logs.size();
 		}
 		
