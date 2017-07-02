@@ -18,12 +18,20 @@ public class IndexEndpoint {
 	
 	@GET
 	public Response get() {
+		IndexModel model = new IndexModel();
+		
+		if (storage.get().getHouveImpacto()) {
+			model.setTexto("Alerta de Impacto!");
+			model.setCor("red");
+			
+			return Response.ok(model, MediaType.APPLICATION_JSON_TYPE).build();
+		}
+		
 		String estado = storage.get().getEstadoCaixa();
 		String temperatura = storage.get().getTemperaturaCaixa();
 		
 		int valorTemperatura = (int)Math.ceil(Double.valueOf(temperatura.replace(',', '.')));
 		
-		IndexModel model = new IndexModel();
 		model.setTexto(valorTemperatura + "° " + estado);
 		
 		if (valorTemperatura >= 25) {

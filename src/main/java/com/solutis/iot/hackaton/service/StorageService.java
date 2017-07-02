@@ -16,10 +16,13 @@ public class StorageService {
 	
 	private String estadoCaixa; // aberto ou fechado
 	
+	private boolean houveImpacto;
+	
 	private List<String> logs;
 	
 	@PostConstruct
 	public void init() {
+		houveImpacto = false;
 		logs = new ArrayList<>();
 	}
 
@@ -53,5 +56,13 @@ public class StorageService {
 	
 	public String getEstadoCaixa() {
 		return estadoCaixa;
+	}
+	
+	public void setHouveImpacto(boolean houveImpacto) {
+		this.houveImpacto = houveImpacto;
+	}
+	
+	public boolean getHouveImpacto() {
+		return houveImpacto;
 	}
 }
