@@ -1,0 +1,10 @@
+com/solutis/iot/hackaton/service/TemperaturaService.class
+com/solutis/iot/hackaton/service/StorageService.class
+com/solutis/iot/hackaton/json/Aceleracao.class
+com/solutis/iot/hackaton/api/IndexEndpoint.class
+com/solutis/iot/hackaton/api/NotificationsEndpoint.class
+com/solutis/iot/hackaton/service/LuminosidadeService.class
+com/solutis/iot/hackaton/service/AceleracaoService.class
+com/solutis/iot/hackaton/api/Endpoint.class
+com/solutis/iot/hackaton/json/IndexModel.class
+com/solutis/iot/hackaton/JAXRSConfiguration.class

@@ -1,0 +1,10 @@
+/home/roqmarcelo/Work/workspace/biotrack/src/main/java/com/solutis/iot/hackaton/service/TemperaturaService.java
+/home/roqmarcelo/Work/workspace/biotrack/src/main/java/com/solutis/iot/hackaton/service/LuminosidadeService.java
+/home/roqmarcelo/Work/workspace/biotrack/src/main/java/com/solutis/iot/hackaton/api/NotificationsEndpoint.java
+/home/roqmarcelo/Work/workspace/biotrack/src/main/java/com/solutis/iot/hackaton/api/Endpoint.java
+/home/roqmarcelo/Work/workspace/biotrack/src/main/java/com/solutis/iot/hackaton/JAXRSConfiguration.java
+/home/roqmarcelo/Work/workspace/biotrack/src/main/java/com/solutis/iot/hackaton/api/IndexEndpoint.java
+/home/roqmarcelo/Work/workspace/biotrack/src/main/java/com/solutis/iot/hackaton/json/Aceleracao.java
+/home/roqmarcelo/Work/workspace/biotrack/src/main/java/com/solutis/iot/hackaton/service/AceleracaoService.java
+/home/roqmarcelo/Work/workspace/biotrack/src/main/java/com/solutis/iot/hackaton/json/IndexModel.java
+/home/roqmarcelo/Work/workspace/biotrack/src/main/java/com/solutis/iot/hackaton/service/StorageService.java
